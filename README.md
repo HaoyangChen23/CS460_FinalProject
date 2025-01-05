@@ -59,7 +59,7 @@ Then choose one of the following methods to configure the environment:
 ```bash
 # Create and activate environment
 conda env create -f environment.yml
-conda activate chess_recognition
+conda activate chess
 
 # If GPU support is needed, install CUDA toolkit
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
